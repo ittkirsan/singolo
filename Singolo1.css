@@ -3,9 +3,44 @@ html {
 }
 body {
     font-size: 1.6em;
-    font-family: 'Open Sans', Verdana, sans-serif;
+    font-family: 'Lato', Verdana, sans-serif;
 }
 .wrapper {
     max-width: 1020px;
     margin: auto;
+    border: 1px solid black;
 }
+.header {
+    height: 90px;
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746;
+}
+.logo {
+    width: 115px;
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: Lato;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.logo a {
+    text-decoration: none;
+}
+.header_navigation {
+    position: absolute;
+    right: 40px;
+    top: 45px;
+    list-style-position: inside;
+    font-size: 12px;
+    font-family: Lato;
+    width: 371px;
+    }
+.navigation a {
+    text-decoration: none;
+}
+.navigation li {
+    display: inline;
+}
+
